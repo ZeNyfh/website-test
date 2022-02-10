@@ -8,10 +8,11 @@
         <body>
             <div align=center>
                 <h1 style="text-align:center; color:white; border:3px solid black; width:25%; background-color:#444444;">Haha ZeNyfh website go brrr!<br>
-                <img style="border: 2px solid black; background-color:grey" img src="https://i.ibb.co/93Zbygx/zentitle.png">
+                <img style="border: 2px solid black; background-color:grey" img src="https://github.com/ZeNyfh/website-test/blob/main/img/zentitle.png?raw=true">
             </br></h1></div>
             <p style="text-align:center; color:White; font-size:20px;">This is an example website, I will be making edits to this.</p>
         <br>
+
         <script>
             var num = 0;
             function addition(){
@@ -19,7 +20,18 @@
                 document.getElementById('number').innerHTML = num;
             }
         </script>
+
         <input type="button" value="Counter!" onClick="addition()" style="height:30px; width:80px" /><p id='number' style="color:white"></p>
+
+        <script>
+            function returnText(){
+                let input = document.getElementById("userInput").value;
+            }
+        </script>
+
+        <p style="color:white">Enter some text</p>
+        <input id="userInput" type="text" placeholder="Text">
+        <button onclick="returnText()">Submit</button>
         </br>
         </body>
         <div style="position: absolute; bottom: 35px; color:White;">
